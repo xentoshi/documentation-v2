@@ -16,12 +16,12 @@ const config = {
     url: "https://drift-labs.github.io",
     // Set the /<baseUrl>/ pathname under which your site is served
     // For GitHub pages deployment, it is often '/<projectName>/'
-    baseUrl: "/docs-v2/",
+    baseUrl: "/documentation-v2/",
 
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
-    organizationName: "driftprotocol", // Usually your GitHub org/user name.
-    projectName: "docs-v2", // Usually your repo name.
+    organizationName: "drift-labs", // Usually your GitHub org/user name.
+    projectName: "documentation-v2", // Usually your repo name.
 
     onBrokenLinks: "throw",
     onBrokenMarkdownLinks: "warn",
