@@ -20,7 +20,7 @@ By depositing collateral into Drift Protocol, users can:&#x20;
 
 ## Why use Drift?
 
-The full suite of DeFi tools within the protocol are powered by Drift's robust cross-margined risk engine, designed to give traders a balance of both capital efficiency and protection (m*ore details of the cross-margin engine design are detailed throughout "Technical Explanations").*
+The full suite of DeFi tools within the protocol are powered by Drift's robust cross-margined risk engine, designed to give traders a balance of both capital efficiency and protection _(more details of the cross-margin engine design are detailed throughout "Technical Explanations")._
 
 Under the cross-margin engine, each tool extends functionality within the protocol without over-extending risk. For instance:
 

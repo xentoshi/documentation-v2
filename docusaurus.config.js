@@ -9,7 +9,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 /** @type {import('@docusaurus/types').Config} */
 const config = {
     title: "Drift Protocol",
-    tagline: "Solana is cool",
+    tagline: "a robust, cross-margin DEX on Solana",
     favicon: "img/favicon.ico",
 
     // Set the production url of your site here
@@ -116,29 +116,41 @@ const config = {
                         title: "Community",
                         items: [
                             {
-                                label: "Stack Overflow",
-                                href: "https://stackoverflow.com/questions/tagged/driftprotocol",
-                            },
-                            {
                                 label: "Discord",
                                 href: "https://discordapp.com/invite/driftprotocol",
                             },
                             {
+                                label: "Forums",
+                                href: "https://github.com/orgs/drift-labs/discussions",
+                            },
+                            {
                                 label: "Twitter",
                                 href: "https://twitter.com/driftprotocol",
+                            },
+                            {
+                                label: "Solana Stack Overflow",
+                                href: "https://solana.stackexchange.com/",
                             },
                         ],
                     },
                     {
                         title: "More",
                         items: [
-                            {
-                                label: "Blog",
-                                to: "/blog",
-                            },
+                            // {
+                            //     label: "Blog",
+                            //     to: "/blog",
+                            // },
                             {
                                 label: "GitHub",
                                 href: "https://github.com/drift-labs/",
+                            },
+                            {
+                                label: "API Docs",
+                                href: "https://drift-labs.github.io/v2-teacher/",
+                            },
+                            {
+                                label: "Stats",
+                                href: "https://app.drift.trade/stats",
                             },
                         ],
                     },
