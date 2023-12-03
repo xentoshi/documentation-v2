@@ -48,6 +48,7 @@ const config = {
 
                     // "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
                 },
+
                 // blog: {
                 //     showReadingTime: true,
                 //     // Please change this to your repo.
@@ -94,14 +95,14 @@ const config = {
                     },
                 ],
             },
-            // algolia: {
-            //     // The application ID provided by Algolia
-            //     appId: "", // Todo
-            //     apiKey: "", // Todo
-            //     indexName: "drift-protocol",
-            //     contextualSearch: true,
-            //     searchPagePath: false,
-            // },
+            algolia: {
+                // The application ID provided by Algolia
+                appId: "1", // Todo
+                apiKey: "1", // Todo
+                indexName: "drift-protocol",
+                contextualSearch: true,
+                searchPagePath: false,
+            },
             footer: {
                 style: "dark",
                 links: [
