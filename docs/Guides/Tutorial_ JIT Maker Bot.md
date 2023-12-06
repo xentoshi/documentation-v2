@@ -15,7 +15,7 @@ JIT Maker Bots maintain a local copy of the decentralised orderbook (DLOB) (see:
 
 The reference implementation of the JIT Maker Bot is available [here](https://github.com/drift-labs/keeper-bots-v2/blob/master/src/bots/jitMaker.ts).
 
-Follow the instructions at [Keeper Bots](<../Drift Protocol v2 Docs/Keeper Bots.md>) to set the required environment variables, initialise the`ClearingHouseUser` and deposit some collateral.
+Follow the instructions at [Keeper Bots](<../Guides/Keeper Bots.md>) to set the required environment variables, initialise the`ClearingHouseUser` and deposit some collateral.
 
 Start the JIT Maker Bot:
 

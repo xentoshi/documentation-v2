@@ -23,7 +23,7 @@ const config = {
     organizationName: "drift-labs", // Usually your GitHub org/user name.
     projectName: "documentation-v2", // Usually your repo name.
 
-    onBrokenLinks: "throw",
+    onBrokenLinks: "warn",
     onBrokenMarkdownLinks: "warn",
 
     // Even if you don't use internationalization, you can use this field to set
@@ -75,19 +75,19 @@ const config = {
                     src: "img/logo.svg",
                 },
                 items: [
-                    {
-                        type: "docSidebar",
-                        sidebarId: "tutorialSidebar",
-                        position: "left",
-                        label: "Docs",
-                    },
+                    // {
+                    //     type: "docSidebar",
+                    //     sidebarId: "tutorialSidebar",
+                    //     position: "left",
+                    //     label: "Docs",
+                    // },
                     // { to: "/blog", label: "Blog", position: "left" },
 
-                    {
-                        type: "search",
-                        position: "right",
-                        className: "search",
-                    },
+                    // {
+                    //     type: "search",
+                    //     position: "right",
+                    //     className: "search",
+                    // },
                     {
                         href: "https://github.com/drift-labs",
                         label: "GitHub",
@@ -95,14 +95,14 @@ const config = {
                     },
                 ],
             },
-            algolia: {
-                // The application ID provided by Algolia
-                appId: "1", // Todo
-                apiKey: "1", // Todo
-                indexName: "drift-protocol",
-                contextualSearch: true,
-                searchPagePath: false,
-            },
+            // algolia: {
+            //     // The application ID provided by Algolia
+            //     appId: "1", // Todo
+            //     apiKey: "1", // Todo
+            //     indexName: "drift-protocol",
+            //     contextualSearch: true,
+            //     searchPagePath: false,
+            // },
             footer: {
                 style: "dark",
                 links: [

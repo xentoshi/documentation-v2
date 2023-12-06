@@ -9,12 +9,12 @@ Liquidations act as position transfers between accounts. Liquidator accounts thu
 
 There are four instructions pertaining to liquidations:
 
-| Instruction                        | Details                                                          |
-| ---------------------------------- | ---------------------------------------------------------------- |
-| liquidate\_perp                    | Liquidator takes over user perpetual positions at a discount.    |
-| liquidate\_borrow                  | Liquidator takes over borrow at a discount to the deposit value. |
-| liquidate\_borrow\_for\_perp\_pnl  | Liquidator takes over borrow for discount P\&L.                  |
-| liquidate\_perp\_pnl\_for\_deposit | Liquidator takes over negative P\&L for discounted deposit.      |
+| Instruction                    | Details                                                          |
+| ------------------------------ | ---------------------------------------------------------------- |
+| liquidate_perp                 | Liquidator takes over user perpetual positions at a discount.    |
+| liquidate_borrow               | Liquidator takes over borrow at a discount to the deposit value. |
+| liquidate_borrow_for_perp_pnl  | Liquidator takes over borrow for discount P\&L.                  |
+| liquidate_perp_pnl_for_deposit | Liquidator takes over negative P\&L for discounted deposit.      |
 
 Bankruptcy (see [Insurance Fund](<../Drift Protocol v2 Docs/Insurance Fund.md>) ) is possible if you still have outstanding liabilities and no further assets after liquidation.&#x20;
 
@@ -26,5 +26,4 @@ The user's trade price at liquidation for a perpetual position will be based on 
 
 **In the case of an oracle error (): the market will pause most fills, liquidations, and funding rate updates. **
 
-If you would like to run a liquidator bot, see [Tutorial: Liquidation Bot](<../Drift Protocol v2 Docs/Tutorial_ Liquidation Bot.md>)
-
+If you would like to run a liquidator bot, see [Tutorial: Liquidation Bot](<../Guides/Tutorial_ Liquidation Bot.md>)

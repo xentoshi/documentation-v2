@@ -21,13 +21,13 @@ Makers can participate in the JIT auction and provide just-in-time liquidity as 
 
 This will provide Makers with an opportunity to see retail flow five seconds before it hits the market.&#x20;
 
-Market Makers can participate in the JIT system by running a JIT Maker Bot. For more information, check out [Tutorial: JIT Maker Bot](<../Drift Protocol v2 Docs/Tutorial_ JIT Maker Bot.md>)
+Market Makers can participate in the JIT system by running a JIT Maker Bot. For more information, check out [Tutorial: JIT Maker Bot](<../Guides/Tutorial_ JIT Maker Bot.md>)
 
 For more information on the Just-in-Time Liquidity system, check out [Just-In-Time (JIT) Auctions](<../Drift Protocol v2 Docs/Just-In-Time _JIT_ Auctions.md>)
 
 ## Decentralised Orderbook&#x20;
 
-Makers can also provide liquidity to Drift's decentralised orderbook by quoting via the UI or programmatically through the [SDK Documentation](<../Drift Protocol v2 Docs/SDK Documentation.md>)&#x20;
+Makers can also provide liquidity to Drift's decentralised orderbook by quoting via the UI or programmatically through the [SDK Documentation](<../Guides/SDK Documentation.md>)&#x20;
 
 ### (a) providing liquidity via the UI
 

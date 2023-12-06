@@ -13,7 +13,7 @@ Drift Protocol has a tiered fee structure for all futures markets based on an on
 
 Some markets, like BTC-PERP and ETH-PERP, have reduced fees. For October and November, these are 25% of the current schedule below.
 
-***
+---
 
 Perpetual Trading Fees are charged on a per-tier basis according to the following schedule:
 
@@ -30,25 +30,25 @@ Perpetual Trading Fees are charged on a per-tier basis according to the followin
 
 Takers are charged a variable Taker Fee depending on which Tier they belong to.&#x20;
 
-**Tier 1 -- 10 bps**:** **Default tier.&#x20;
+**Tier 1 -- 10 bps**:\*\* \*\*Default tier.&#x20;
 
-**Tier 2 -- 9 bps**:** **Either stake more than 500 *or* trade over 1m in volume (30D average).
+**Tier 2 -- 9 bps**:\** \*\*Either stake more than 500 *or\* trade over 1m in volume (30D average).
 
-**Tier 3 -- 8 bps**:** **Either stake more than 1K *or* trade over 5m in volume (30D average).
+**Tier 3 -- 8 bps**:\** \*\*Either stake more than 1K *or\* trade over 5m in volume (30D average).
 
-**Tier 4 -- 7 bps**:** **Either stake more than 2K *or* trade over 10m in volume (30D average).
+**Tier 4 -- 7 bps**:\** \*\*Either stake more than 2K *or\* trade over 10m in volume (30D average).
 
-**Tier 5 -- 6 bps**:** **Either stake more than 5K *or* trade over 50m in volume (30D average).
+**Tier 5 -- 6 bps**:\** \*\*Either stake more than 5K *or\* trade over 50m in volume (30D average).
 
-**VIP -- 3 bps**:** **Either stake more than 10K *or* trade over 100m in volume (30D average).
+**VIP -- 3 bps**:\** \*\*Either stake more than 10K *or\* trade over 100m in volume (30D average).
 
 ### Maker Fees
 
 Makers are provided with a flat 2bps rebate regardless of the Taker Fee paid.&#x20;
 
-***Note: ****Maker orders that are filled against the AMM are not eligible for the maker rebate. Only maker orders that are filled against taker limit orders (orderbook matching) or taker market orders (JIT auction) are eligible for the 2bps rebate.
+**\*Note: \*\***Maker orders that are filled against the AMM are not eligible for the maker rebate. Only maker orders that are filled against taker limit orders (orderbook matching) or taker market orders (JIT auction) are eligible for the 2bps rebate.
 
-Maker orders that are filled against the AMM will incur zero fees. *
+Maker orders that are filled against the AMM will incur zero fees. \*
 
 ### **Referee Discount / Referer Reward**
 
@@ -60,11 +60,10 @@ Filler rewards are variable but up to 10% of the effective taker fee paid by the
 
 ### Disclaimers
 
-*Drift Protocol reserves the right to end the promotional period and the Taker Incentive Program at any time. If the Drift Protocol chooses to do so, it will provide notice to participating users, but such notice is not required in order to conclude the program early or extend the program. Please note that the terms and conditions of this program are subject to change without notice.*
+_Drift Protocol reserves the right to end the promotional period and the Taker Incentive Program at any time. If the Drift Protocol chooses to do so, it will provide notice to participating users, but such notice is not required in order to conclude the program early or extend the program. Please note that the terms and conditions of this program are subject to change without notice._
 
-***There are risks associated with Insurance Fund Staking. Read more about the ***[Insurance Fund Staking](<../Drift Protocol v2 Docs/Insurance Fund Staking.md>) and [Risks ](<../Drift Protocol v2 Docs/Risks .md>)***.***
+**_There are risks associated with Insurance Fund Staking. Read more about the _**[Insurance Fund Staking](<../Drift Protocol v2 Docs/Insurance Fund Staking.md>) and [Risks ](<../Security/Risks .md>))**_._**
 
-***
+---
 
-*\*Maker/Taker 30-Day Volume is tracked on-chain. The calculation uses an aggregate rolling sum estimate across all the user's subaccounts.*
-
+_\*Maker/Taker 30-Day Volume is tracked on-chain. The calculation uses an aggregate rolling sum estimate across all the user's subaccounts._

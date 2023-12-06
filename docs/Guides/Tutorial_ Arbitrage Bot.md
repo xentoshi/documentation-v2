@@ -29,7 +29,7 @@ const connection = new Connection(endpoint);
 
 2\. Install the @drift-labs/sdk.&#x20;
 
-For more details, peek through [SDK Documentation](<../Drift Protocol v2 Docs/SDK Documentation.md>).
+For more details, peek through [SDK Documentation](<../Guides/SDK Documentation.md>).
 
 ```javascript
 import {

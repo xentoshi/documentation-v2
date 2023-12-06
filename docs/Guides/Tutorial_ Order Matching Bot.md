@@ -17,7 +17,7 @@ Matching Bots receive a small compensation for each order that they successfully
 
 See [Keepers & Decentralised Orderbook](<../Drift Protocol v2 Docs/Keepers _ Decentralised Orderbook.md>) for a technical explanation of how the decentralised orderbook (DLOB) and matching incentives work.
 
-Matching Bots are similar to [Tutorial: Order Trigger Bot](<../Drift Protocol v2 Docs/Tutorial_ Order Trigger Bot.md>) in that they:
+Matching Bots are similar to [Tutorial: Order Trigger Bot](<../Guides/Tutorial_ Order Trigger Bot.md>) in that they:
 
 -   also maintain a local copy of the Decentralised Limit Orderbook (DLOB);
 
@@ -29,7 +29,7 @@ Matching Bots are similar to [Tutorial: Order Trigger Bot](<../Drift Protocol v2
 
 The reference implementation of the Order Matching Bot is available [here](https://github.com/drift-labs/keeper-bots-v2/blob/master/src/bots/filler.ts).
 
-Follow the instructions at [Keeper Bots](<../Drift Protocol v2 Docs/Keeper Bots.md>) to set the required environment variables and make sure a `ClearingHouseUser` is initialized.
+Follow the instructions at [Keeper Bots](<../Guides/Keeper Bots.md>) to set the required environment variables and make sure a `ClearingHouseUser` is initialized.
 
 Start the Matching Bot:
 

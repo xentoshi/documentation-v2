@@ -25,11 +25,11 @@ Keepers are rewarded depending on the duties that they perform.
 
 The various types of keeper bots are:
 
-| Bot Type      | Difficulty | Capital Required | Rewards | Link                                                                                              |
-| :------------ | :--------- | :--------------- | :------ | ------------------------------------------------------------------------------------------------- |
-| Matching Bot  | Basic      | No               | TBD     | [Tutorial: Order Matching Bot](<../Drift Protocol v2 Docs/Tutorial_ Order Matching Bot.md>)&#x20; |
-| Order Trigger | Basic      | No               | TBD     | [Tutorial: Order Trigger Bot](<../Drift Protocol v2 Docs/Tutorial_ Order Trigger Bot.md>)&#x20;   |
-| Liquidator    | Advanced   | Yes              | TBD     | &#x20;                                                                                            |
+| Bot Type      | Difficulty | Capital Required | Rewards | Link                                                                              |
+| :------------ | :--------- | :--------------- | :------ | --------------------------------------------------------------------------------- |
+| Matching Bot  | Basic      | No               | TBD     | [Tutorial: Order Matching Bot](<../Guides/Tutorial_ Order Matching Bot.md>)&#x20; |
+| Order Trigger | Basic      | No               | TBD     | [Tutorial: Order Trigger Bot](<../Guides/Tutorial_ Order Trigger Bot.md>)&#x20;   |
+| Liquidator    | Advanced   | Yes              | TBD     | &#x20;                                                                            |
 
 ### Trading Bots
 
@@ -37,7 +37,7 @@ Trading Bots are for-profit bots run on Drift Protocol for the purposes of autom
 
 There are two primary types of trading bots that can be run on Drift Protocol. We have provided examples here:
 
-| Bot Type      | Difficulty | Capital Required | Rewards | Link                                                                                    |
-| :------------ | :--------- | :--------------- | :------ | --------------------------------------------------------------------------------------- |
-| Arbitrage Bot | Advanced   | Yes              | TBD     | [Tutorial: Arbitrage Bot](<../Drift Protocol v2 Docs/Tutorial_ Arbitrage Bot.md>)&#x20; |
-| JIT Maker Bot | Advanced   | Yes              | TBD     | [Tutorial: JIT Maker Bot](<../Drift Protocol v2 Docs/Tutorial_ JIT Maker Bot.md>)       |
+| Bot Type      | Difficulty | Capital Required | Rewards | Link                                                                    |
+| :------------ | :--------- | :--------------- | :------ | ----------------------------------------------------------------------- |
+| Arbitrage Bot | Advanced   | Yes              | TBD     | [Tutorial: Arbitrage Bot](<../Guides/Tutorial_ Arbitrage Bot.md>)&#x20; |
+| JIT Maker Bot | Advanced   | Yes              | TBD     | [Tutorial: JIT Maker Bot](<../Guides/Tutorial_ JIT Maker Bot.md>)       |

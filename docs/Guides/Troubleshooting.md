@@ -21,11 +21,9 @@ SolanaJSONRPCError: failed to get token account balance: Invalid param: could no
 }
 ```
 
-
-
 ## `ClearingHouseUser` does not exist
 
-The account in `KEEPER_PRIVATE_KEY` has not been initialised on the `ClearingHouse` program yet. See [Keeper Bots](<../Drift Protocol v2 Docs/Keeper Bots.md#9KTc1>) for how to initialise the `ClearingHouseUser`
+The account in `KEEPER_PRIVATE_KEY` has not been initialised on the `ClearingHouse` program yet. See [Keeper Bots](<../Guides/Keeper Bots.md#9KTc1>) for how to initialise the `ClearingHouseUser`
 
 ```shell
 [2022-08-15T22:46:19.236Z] error: ClearingHouseUser for bot69e9FXGoKzvAdGnN8uVVDCfLdLUX6K5wsXdrS3Dd3 does not exist
@@ -35,9 +33,6 @@ Error: Run with '--init-user' flag to initialize a ClearingHouseUser
     at async recursiveTryCatch (/Users/user/Drift/keeper-bots-v2/src/index.ts:473:3)
 ```
 
-
-
 ## Misc Transaction Errors
 
 Since running a Keeper is a profit-seeking endeavour, it is not unusual to run into competition while filling orders and liquidating dangerous positions. These errors can happen at various commitment levels, and how you handle them will be dependent on your skillset and craftiness. If you're looking for friends, come to [#dev-chat](https://discord.com/channels/849494028176588802/878700556904980500) and leak some alpha 🤓.
-

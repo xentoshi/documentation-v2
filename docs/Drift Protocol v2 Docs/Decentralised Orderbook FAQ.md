@@ -11,9 +11,9 @@ Drift's decentralised orderbook is different to a traditional orderbook.&#x20;
 
 Limit orders placed on Drift's decentralised orderbook are filled either:&#x20;
 
-*   against each other (buys and sells at the same price); or&#x20;
+-   against each other (buys and sells at the same price); or&#x20;
 
-*   against the DAMM if the trigger conditions are met.&#x20;
+-   against the DAMM if the trigger conditions are met.&#x20;
 
 The orders are stored and settled on-chain. The queue is constructed by a network of off-chain Keepers that are incentivised to fill orders against the DAMM or each other based on age.
 
@@ -41,4 +41,4 @@ This should translate to better performance during periods of high network conge
 
 ### What are Keeper bots? How can I participate?
 
-A Keeper will track and fill orders and earn a reward. The guide to run is listed in [Keeper Bots](<../Drift Protocol v2 Docs/Keeper Bots.md>). Incentive structures are listed in [Keepers & Decentralised Orderbook](<../Drift Protocol v2 Docs/Keepers _ Decentralised Orderbook.md>).
+A Keeper will track and fill orders and earn a reward. The guide to run is listed in [Keeper Bots](<../Guides/Keeper Bots.md>). Incentive structures are listed in [Keepers & Decentralised Orderbook](<../Drift Protocol v2 Docs/Keepers _ Decentralised Orderbook.md>).

@@ -7,11 +7,11 @@ updatedAt: Tue Feb 21 2023 12:22:55 GMT+0000 (Coordinated Universal Time)
 
 **General **
 
-|  **Term**              | **Definition**                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| **Term**               | **Definition**                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Clearing House         | margin/accounting engine of the protocol                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | AMM                    | means an Automated Market Maker is Drift's source of constant liquidity that is based on the constant product formula `x*y=k` balancing the reserves.                                                                                                                                                                                                                                                                                                                     |
-| Keeper Network         | refers to the network of Keeper Bots on Drift that facilitates the exchange of liquidity. For more information, read [Keeper Bots](<../Drift Protocol v2 Docs/Keeper Bots.md>)                                                                                                                                                                                                                                                                                            |
+| Keeper Network         | refers to the network of Keeper Bots on Drift that facilitates the exchange of liquidity. For more information, read [Keeper Bots](<../Guides/Keeper Bots.md>)                                                                                                                                                                                                                                                                                                            |
 | JIT&#x20;              | means to Just-In-Time.&#x20;                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | JIT Auction&#x20;      | a "Just-in-Time" Auction refers to the dutch auction mechanism that lets Market Makers provide liquidity to Takers.a "Just-in-Time" auction refers to the dutch auction mechanism that lets Market Makers provide liquidity to Takersa "Just-in-Time" auction refers to the dutch auction mechanism that lets Market Makers provide liquidity to Takersa "Just-in-Time" auction refers to the dutch auction mechanism that lets Market Makers provide liquidity to Takers |
 | Market Makers / Makers | refers to parties on the platform that provides liquidity to the exchange. Liquidity 'provided' by Market Makers can be 'taken' by Takers. &#xA;&#xA;Market Makers includes parties that place orders on Drift with the 'Post-Only' function. This means the order will be placed on the decentralised orderbook and will only add to the liquidity available. &#xA;&#xA;Market Makers also include parties that provide liquidity via the JIT mechanism.&#x20;           |
@@ -23,22 +23,22 @@ updatedAt: Tue Feb 21 2023 12:22:55 GMT+0000 (Coordinated Universal Time)
 
 **Market Info**
 
-| **Term**             | **Description**                                                                                                                            | **Example** |
-| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ | ----------- |
-| Index / Oracle Price | is the price of the underlying asset (currently: as reported by Pyth).                                                                     | $201.01     |
-| Mark Price           | is the price of the relevant market.                                                                                                       | $201.05     |
-| Funding Rate         | refers to 1/24 the average premium every hour.&#xA;if positive, longs pay shorts. if negative, shorts pay longs.&#xA;see  for more details | .0012%      |
-| Open Interest&#x20;  | refers to the total size of all positions (long and short) in the relevant market.                                                         | 181 SOL     |
-| 24h Volume           | refers to the total volume traded in the past day in the relevant market.                                                                  | $1.04M      |
+| **Term**             | **Description**                                                                                                                           | **Example** |
+| -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| Index / Oracle Price | is the price of the underlying asset (currently: as reported by Pyth).                                                                    | $201.01     |
+| Mark Price           | is the price of the relevant market.                                                                                                      | $201.05     |
+| Funding Rate         | refers to 1/24 the average premium every hour.&#xA;if positive, longs pay shorts. if negative, shorts pay longs.&#xA;see for more details | .0012%      |
+| Open Interest&#x20;  | refers to the total size of all positions (long and short) in the relevant market.                                                        | 181 SOL     |
+| 24h Volume           | refers to the total volume traded in the past day in the relevant market.                                                                 | $1.04M      |
 
 **Position Table**
 
-|  **Term**            | **Description**                                                                                            | **Example **  |
+| **Term**             | **Description**                                                                                            | **Example **  |
 | -------------------- | ---------------------------------------------------------------------------------------------------------- | ------------- |
 | Market               | means a base / quote asset pair.                                                                           | SOL/USD       |
 | Direction            | means the position's bet on price change.                                                                  | LONG,SHORT    |
 | Size                 | means the position's base asset value.                                                                     | 2.3555 SOL    |
-| Notional             | means the position's quote asset value.                                                                    |  $1,000       |
+| Notional             | means the position's quote asset value.                                                                    | $1,000        |
 | Entry Price          | means the average price paid (cost basis) for acquiring position.                                          | $200          |
 | Exit Price           | means the average price realised if closing entire position.                                               | $200          |
 | Liquidation Price    | means the soft estimate of price where liquidation of the account will occur.                              | None          |
@@ -58,7 +58,7 @@ updatedAt: Tue Feb 21 2023 12:22:55 GMT+0000 (Coordinated Universal Time)
 
 **AMM Specific **
 
-|  **Term**            | **Definition**                                                                                                                                                                                                                                                                                                                                                                                                    |
+| **Term**             | **Definition**                                                                                                                                                                                                                                                                                                                                                                                                    |
 | -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | K                    | is the curve invariant, currently for constant product.&#xA;`k = base_asset_reserve * quote_asset_reserve`                                                                                                                                                                                                                                                                                                        |
 | Base Asset Reserve   | means the virtual base reserves for a market (SOL reserves).                                                                                                                                                                                                                                                                                                                                                      |
@@ -75,8 +75,7 @@ updatedAt: Tue Feb 21 2023 12:22:55 GMT+0000 (Coordinated Universal Time)
 
 **Users**
 
-| **Term**           | **Definition**                                                     |
-| ------------------ | ------------------------------------------------------------------ |
-| base asset amount  | The amount of base currency (e.g. SOL-PERP) held by a single user. |
-| net user position  | Current longs - shorts in a given market.                          |
-
+| **Term**          | **Definition**                                                     |
+| ----------------- | ------------------------------------------------------------------ |
+| base asset amount | The amount of base currency (e.g. SOL-PERP) held by a single user. |
+| net user position | Current longs - shorts in a given market.                          |

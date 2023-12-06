@@ -5,7 +5,7 @@ createdAt: Sun Aug 21 2022 00:57:47 GMT+0000 (Coordinated Universal Time)
 updatedAt: Sat Apr 22 2023 15:39:49 GMT+0000 (Coordinated Universal Time)
 ---
 
-These risk parameters are relevant to perpetual futures. Further risk parameters are also set out in and ****[Risk Parameters](<../Drift Protocol v2 Docs/Risk Parameters.md>)
+These risk parameters are relevant to perpetual futures. Further risk parameters are also set out in and \*\*\*\*[Risk Parameters](<../Drift Protocol v2 Docs/Risk Parameters.md>)
 
 ### Price Bands
 
@@ -19,7 +19,7 @@ Oracle-TWAP-mark band = `within 10% of mark - oracle_twap_{5 minutes}`
 
 ### Collateral Weight
 
-To guard against concentration risk from a single whale, when assets exceed a certain size, their asset weights can be discounted. 
+To guard against concentration risk from a single whale, when assets exceed a certain size, their asset weights can be discounted.
 
 Size Weightage = `1.1 / (weight * sqrt{size} * imf_factor)`
 
@@ -33,36 +33,36 @@ The Clearinghouse will also pause risk-increasing trades that further increase l
 
 ### Order/Execution Limits
 
-An individual user sub-account can have up to 32 outstanding orders at any one time. A Market Order sent has limits *within each instruction* (so may be filled iteratively).&#x20;
+An individual user sub-account can have up to 32 outstanding orders at any one time. A Market Order sent has limits _within each instruction_ (so may be filled iteratively).&#x20;
 
-*   exceed 2% price impact (set by the market's `max_slippage_ratio` )
+-   exceed 2% price impact (set by the market's `max_slippage_ratio` )
 
 Market Orders have the possibility of only being partially filled before expiration if any of the following limits occur:
 
-*   exceeds its slippage tolerance implied limit price
+-   exceeds its slippage tolerance implied limit price
 
-*   exceeds its active time limit (for market orders, the Clearinghouse sets this at 30 seconds)
+-   exceeds its active time limit (for market orders, the Clearinghouse sets this at 30 seconds)
 
 Within a single transaction, orders can be filled up by the `max_base_asset_amount` against the AMM. This maximum is set per market and calling of multiple fill instructions may work. For example, if the maximum amount was 10,000 SOL, an order for 100,000 SOL can be filled against the AMM in 10 instruction calls.
 
 The following conditions will also expire/cancel the remainder(s) of orders:
 
-*   Out of favour oracle price divergence from maker's set limit price (post only orders)
-    *   oracle's price is 2.5% above the maker's ask limit price&#x20;
+-   Out of favour oracle price divergence from maker's set limit price (post only orders)
 
-    *   oracle's price is 2.5% below the maker's bid limit price
+    -   oracle's price is 2.5% above the maker's ask limit price&#x20;
 
-*   order fill would reduce free collateral below 0 (for taker orders)
+    -   oracle's price is 2.5% below the maker's bid limit price
+
+-   order fill would reduce free collateral below 0 (for taker orders)
 
 Note that whenever a user's orders are cancelled, fillers receive a small reward for the user they filled, if they did not receive payment otherwise.
 
 ### Unbounded P\&L and Market Delisting
 
-This risk is addressed in [Risks ](<../Drift Protocol v2 Docs/Risks .md>)and [P\&L](<../Drift Protocol v2 Docs/P_L.md>).&#x20;
+This risk is addressed in [Risks ](<../Security/Risks .md>))and [P\&L](<../Drift Protocol v2 Docs/P_L.md>).&#x20;
 
 Users can technically achieve unbounded unrealised P\&L from entering and exiting a trade against the AMM. Further, as the AMM allows for asynchronous trading; there may not be an offsetting loss within the system to account for the gain made by particular users. &#x20;
 
 As such, even if the user can achieve unbounded unrealised gains - those gains cannot be settled and withdrawable as collateral until there is a dollar of offsetting loss to account for the dollar of gain.
 
 In a circumstance where the majority of participants are in extreme positive unrealised P\&L and the unrealised P\&L cannot be settled; the market may be eligible for settlement through the [Delisting Process](<../Drift Protocol v2 Docs/Delisting Process.md>).
-

@@ -52,11 +52,10 @@ Theoretically, this should also translate to better performance during periods o
 
 **Reduce-only** orders guarantee that you will:
 
-*   NOT be made longer if you are already long (or shorter if you are already short); and
+-   NOT be made longer if you are already long (or shorter if you are already short); and
 
-*   NOT be made short if you were previously long (or vice versa).
+-   NOT be made short if you were previously long (or vice versa).
 
 **What are Keeper bots? How can I participate?**
 
-A Keeper will track and fill orders and earn a reward. Guide to running different types of [Keeper Bots](<../Drift Protocol v2 Docs/Keeper Bots.md>).&#x20;
-
+A Keeper will track and fill orders and earn a reward. Guide to running different types of [Keeper Bots](<../Guides/Keeper Bots.md>).&#x20;

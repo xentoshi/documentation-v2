@@ -36,23 +36,3 @@ Under the cross-margin engine, each tool extends functionality within the protoc
 -   borrowers are only eligible to borrow from depositors in an over-collateralised fashion while passing multiple safety measures
 
 The protocol's orderbook, liquidity, and liquidation layer is powered by a validator-like Keeper Network. Keepers are a network of agents and market-makers incentivized to provide the best order execution (i.e. Just-In-Time (JIT) liquidity, order matching, etc.) to traders on Drift. The Keepers can route orders throughout the multi-sourced liquidity mechanisms that are designed to effectively scale and offer competitive pricing even with larger order sizes.
-
-# Quick Links
-
-::::link-array
-:::link-array-item{headerType="IMAGE" headerImage="https://archbee-image-uploads.s3.amazonaws.com/ps_9Ff-LBbQB7IaXI3f3F/wgvxfo_VPFR7LxlZuTlE3_02phrases1.png"}
-[Getting Started](<../Drift Protocol v2 Docs/Getting Started.md>)
-:::
-
-:::link-array-item{headerType="IMAGE" headerImage="https://archbee-image-uploads.s3.amazonaws.com/ps_9Ff-LBbQB7IaXI3f3F/9UwwmuenoAV533je_epwT_02phrases4.png"}
-[Just-In-Time (JIT) Auctions](<../Drift Protocol v2 Docs/Just-In-Time _JIT_ Auctions.md>)&#x20;
-:::
-
-:::link-array-item{headerType="IMAGE" headerImage="https://archbee-image-uploads.s3.amazonaws.com/ps_9Ff-LBbQB7IaXI3f3F/G6Banz-W4PNUEIljrqfo1_pvuy0ensaqopmsis66txv02phrases2.png"}
-[Tutorial: Arbitrage Bot](<../Drift Protocol v2 Docs/Tutorial_ Arbitrage Bot.md>)
-:::
-
-:::link-array-item{headerType="IMAGE" headerImage="https://archbee-image-uploads.s3.amazonaws.com/ps_9Ff-LBbQB7IaXI3f3F/caNNkmMAC-_rPd2341YQ1_yyrmtkw9rurlhcw5bamdc02phrases3.png"}
-[Keepers & Decentralised Orderbook](<../Drift Protocol v2 Docs/Keepers _ Decentralised Orderbook.md>)
-:::
-::::
