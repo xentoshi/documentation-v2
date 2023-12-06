@@ -23,8 +23,8 @@ const config = {
     organizationName: "drift-labs", // Usually your GitHub org/user name.
     projectName: "documentation-v2", // Usually your repo name.
 
-    onBrokenLinks: "warn",
-    onBrokenMarkdownLinks: "warn",
+    onBrokenLinks: "throw",
+    onBrokenMarkdownLinks: "throw",
 
     // Even if you don't use internationalization, you can use this field to set
     // useful metadata like html lang. For example, if your site is Chinese, you
@@ -89,8 +89,8 @@ const config = {
                     //     className: "search",
                     // },
                     {
-                        href: "https://github.com/drift-labs",
-                        label: "GitHub",
+                        href: "https://github.com/drift-labs/documentation-v2",
+                        label: "Edit on GitHub",
                         position: "right",
                     },
                 ],

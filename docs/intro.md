@@ -2,7 +2,7 @@
 sidebar_position: 1
 
 title: Welcome to Drift Protocol
-slug: D77R-welcome-to-drift-protocol
+slug: intro
 createdAt: Wed Jul 20 2022 06:32:38 GMT+0000 (Coordinated Universal Time)
 updatedAt: Wed Nov 15 2023 12:21:09 GMT+0000 (Coordinated Universal Time)
 ---

@@ -20,9 +20,11 @@ An individual perpetual market has two pools:
 
 The P\&L Pool receives the highest priority on claimed funds, in order to give user's the best possible experience. The default fraction of exchange fees for the Fee Pool is `total_exchange_fee / 2` and this fraction is determined by: `SHARE_OF_FEES_ALLOCATED_TO_CLEARING_HOUSE`.
 
-:::hint{type="info"}
+<!-- :::hint{type="info"} -->
+
 The Fee Pool will only get partially filled up by up to 1% of intermediate P\&L settled from a user's losses and aggressively drawn down for the benefit of the P\&L Pool otherwise.
-:::
+
+<!-- ::: -->
 
 ### Spot Market
 
