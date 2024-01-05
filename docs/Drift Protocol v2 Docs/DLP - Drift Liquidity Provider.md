@@ -21,7 +21,11 @@ To add liquidity to a perpetual market:
 
 1.  Select the market you'd like to be an LP for and click `Add`
 
+![](../../static/assets/dlp-select-market.png)
+
 2.  In the modal, enter the amount you'd like to provide or the leverage
+
+![](../../static/assets/dlp-add-liquidity.png)
 
 3.  Click `Add`
 
@@ -33,7 +37,11 @@ You can remove liquidity from the Trading page under the positions tab or you ca
 
 1.  Click `Remove`
 
+![](../../static/assets/dlp-remove-position.png)
+
 2.  Select the amount of shares you'd like to remove
+
+![](../../static/assets/dlp-select-shares-to-remove.png)
 
 3.  Click `Remove Liquidity`
 
@@ -43,5 +51,8 @@ There are 2 ways to access historical performance:
 
 1.  You can click on the 7D or 30D performance in each markets card
 
+![](../../static/assets/dlp-performance-chart.png)
+
 2.  or, in table view, you can click `View Performance` under the 30D Performance column
 
+![](../../static/assets/dlp-performance-table-view.png)
