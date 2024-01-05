@@ -15,11 +15,11 @@ Order Trigger Bots (Trigger Bots) are responsible for marking orders that satisf
 
 Trigger Bots receive a small compensation for each successfully marked order.
 
-See [Keepers & Decentralised Orderbook](<../Drift Protocol v2 Docs/Keepers _ Decentralised Orderbook.md>) for a technical explanation of how the decentralised orderbook (DLOB) and matching incentives work.
+See [Keepers & Decentralised Orderbook](<../0 About Drift v2/4 Keepers _ Decentralised Orderbook>) for a technical explanation of how the decentralised orderbook (DLOB) and matching incentives work.
 
 Trigger Bots are similar to [Tutorial: Order Matching Bot](<../Guides/Tutorial_ Order Matching Bot.md>) in that they:&#x20;
 
--   also maintain a local copy of the [Keepers & Decentralised Orderbook](<../Drift Protocol v2 Docs/Keepers _ Decentralised Orderbook.md>);&#x20;
+-   also maintain a local copy of the [Keepers & Decentralised Orderbook](<../0 About Drift v2/4 Keepers _ Decentralised Orderbook>);&#x20;
 
 -   do not require the operator to manage collateral; and&#x20;
 
@@ -29,7 +29,7 @@ Trigger Bots are similar to [Tutorial: Order Matching Bot](<../Guides/Tutorial_ 
 
 The reference implementation of a Trigger Bot is available [here](https://github.com/drift-labs/keeper-bots-v2/blob/master/src/bots/trigger.ts).
 
-Follow the instructions at [Keeper Bots](<../Guides/Keeper Bots.md>) to set the required environment variables and make sure a `ClearingHouseUser` is initialised.
+Follow the instructions at [Keeper Bots](<../0 About Drift v2/3 Keeper Bots>) to set the required environment variables and make sure a `ClearingHouseUser` is initialised.
 
 Start the Trigger Bot:
 

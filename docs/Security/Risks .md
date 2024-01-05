@@ -7,7 +7,7 @@ updatedAt: Wed Jun 07 2023 12:03:37 GMT+0000 (Coordinated Universal Time)
 
 All DeFi protocols, including Drift, come with risks, which are important to understand before depositing significant amounts of crypto. Some of the main risks involved in using Drift are outlined here.&#x20;
 
-Further risk parameters are also set out in  and [Risk Parameters](<../Drift Protocol v2 Docs/Risk Parameters.md>).
+Further risk parameters are also set out in  and [Risk Parameters](<../Drift Protocol v2 Docs/Risk Parameters>).
 
 **Smart Contract and UI Risk**
 
@@ -33,7 +33,7 @@ Drift offers both leveraged perpetual swaps and borrow/lend. For perpetual swaps
 
 Drift's DAMM is the counterparty to all trades taken against the DAMM. This means that the DAMM itself has delta risk, and this risk is magnified when market conditions skew on either side and the imbalance between longs and shorts increases.
 
-The DAMM has protections in place to prevent the long short imbalance from skewing too heavily to either side. More information on that is here at: [Drift AMM](<../Drift Protocol v2 Docs/Drift AMM.md>). Despite these protections, there is still a risk that the DAMM will be exposed to delta risk in periods of significant volatility.
+The DAMM has protections in place to prevent the long short imbalance from skewing too heavily to either side. More information on that is here at: [Drift AMM](<../0 About Drift v2/1 Drift AMM>). Despite these protections, there is still a risk that the DAMM will be exposed to delta risk in periods of significant volatility.
 
 **No Off-Setting Loss Risk**
 
@@ -43,7 +43,7 @@ Whilst a user can achieve this unrealised gain, it is important to note that an 
 
 Additionally, if the unrealised P\&L imbalance exceeds its per-market threshold, those unrealised gains may be discounted by the margining system (initial, not maintenance) to prevent large borrows against it. This discounting would only impact new positions being opened and would not affect a user's liquidation threshold.
 
-These rules are systemitised and can be read more in [P\&L](<../Drift Protocol v2 Docs/P_L.md>) and [Margin](<../Drift Protocol v2 Docs/Margin.md>)
+These rules are systemitised and can be read more in [P\&L](<../P&L/0 P_L>) and [Margin](<../Trading/4 Margin>)
 
 **Untimely Liquidation Risk**
 
