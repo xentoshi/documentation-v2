@@ -31,7 +31,7 @@ The interest rate will slowly increase to an optimal ratio of X% and will increa
 
 Users must pay a Borrow APY to the pool when borrowing assets. This interest payment is then distributed to lenders via the Supply APY.
 
-Drift's interest rate is calibrated to manage liquidity risk and optimise asset utilisation. The formula for the borrow interest rates can be found at [Borrow Interest Rate](<./4 Borrow Interest Rate>).&#x20;
+Drift's interest rate is calibrated to manage liquidity risk and optimise asset utilisation. The formula for the borrow interest rates can be found at [Borrow Interest Rate](<4 Borrow Interest Rate.md>).&#x20;
 
 The Borrow APY for each asset is shown on the UI. There is no 'deadline' for loans to be repaid. The interest owed will accrue over time and you can repay whenever you're ready.&#x20;
 

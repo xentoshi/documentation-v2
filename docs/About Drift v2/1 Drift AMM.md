@@ -29,7 +29,7 @@ You can read more about Drift's v1 DAMM design [here](https://www.notion.so/drif
 
 ## Drift v2 AMM&#x20;
 
-Drift’s v2 AMM is still a vAMM using a constant product curve but now includes external [Liquidity Providers (LPs)](<../Providing Liquidity/1 Liquidity Providers _LPs_>), a concentration factor, and dynamic spread/peg that **programmatically update prior to filling trades**.
+Drift’s v2 AMM is still a vAMM using a constant product curve but now includes external [Liquidity Providers (LPs)](<../Providing Liquidity/1 Liquidity Providers _LPs_.md>), a concentration factor, and dynamic spread/peg that **programmatically update prior to filling trades**.
 
 The mechanics behind the dynamic spread and peg are:
 
@@ -74,7 +74,7 @@ The mark price is updated each time the oracle updates its price and when the co
 
 **Oracle Live Pricing Sequence**
 
-Every time a trader wants to fill against the AMM, the AMM will be updated in the same slot with a valid oracle price (see [Oracles](<../Trading/13 Oracles>)). &#x20;
+Every time a trader wants to fill against the AMM, the AMM will be updated in the same slot with a valid oracle price (see [Oracles](<../Trading/13 Oracles.md>)). &#x20;
 
 The sequence is:&#x20;
 

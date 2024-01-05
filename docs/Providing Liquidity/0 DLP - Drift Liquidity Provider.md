@@ -13,7 +13,7 @@ Providing liquidity increases the total pool of liquidity available within that 
 
 Since the liquidity added to a perpetuals market is cross margined within Drift, you'll continue to earn lending interest and have capital available for margin trading.
 
-For an in-depth overview of how DLP works, please see [Liquidity Providers (LPs)](<./1 Liquidity Providers _LPs_>)
+For an in-depth overview of how DLP works, please see [Liquidity Providers (LPs)](<../Providing Liquidity/0 DLP - Drift Liquidity Provider.md>)
 
 ### How to add liquidity
 

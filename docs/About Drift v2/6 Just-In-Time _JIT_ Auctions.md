@@ -140,7 +140,7 @@ pub fn calculate_auction_end_price(
 
 ### How does this differ from a RFQ System?&#x20;
 
-Unlike an RFQ system where the Maker has to submit their own prices, the auction prices are already pre-determined based on Drift’s AMM curves based on Drift's inventory-adjusted spreads as mentioned in [Drift AMM](../Drift%20Protocol%20v2%20Docs/docs/About%20Drift%20v2/1%20Drift%20AMM).&#x20;
+Unlike an RFQ system where the Maker has to submit their own prices, the auction prices are already pre-determined based on Drift’s AMM curves based on Drift's inventory-adjusted spreads as mentioned in [Drift AMM](<../About Drift v2/1 Drift AMM.md>).&#x20;
 
 The price of the auction is on-chain and deterministic based on the _time_ of the auction, while in an RFQ, the Maker can submit their own price at any point. As the 5-second auction goes on, the price becomes worse for the Takers and better for the Makers. As a result, Makers need to be as competitive as possible to provide price improvements to traders.
 

@@ -32,7 +32,7 @@ If the insurance fund has users staked, each individual hourly settlement is cap
 *   thus an astronomically large inflow into the revenue pool (relatively to user insurance staked amounts) would result in revenue that slowly reaches the insurance over a longer period of time rather than immediately&#x20;
     *   this encourages more insurance fund stakers (who require a medium horizon of insurance offering) to join during the high annualised cap inflow&#x20;
 
-Insurance Fund Stakers must adhere to the cooldown period for withdrawals (see [Insurance Fund Staking](<../Insurance Fund/1 Insurance Fund Staking>)).
+Insurance Fund Stakers must adhere to the cooldown period for withdrawals (see [Insurance Fund Staking](<../Insurance Fund/1 Insurance Fund Staking.md>)).
 
 ### Spot Markets
 
@@ -54,7 +54,7 @@ The following instructions interact w/ the insurance fund:
 
 ### Perpetual Markets
 
-Perpetual Markets are bootstrapped by the [Drift AMM](../Drift%20Protocol%20v2%20Docs/docs/About%20Drift%20v2/1%20Drift%20AMM) which depending on market-making performance conditions can add and remove funds from the revenue pool.
+Perpetual Markets are bootstrapped by the [Drift AMM](<../About Drift v2/1 Drift AMM.md>) which depending on market-making performance conditions can add and remove funds from the revenue pool.
 
 Within the program, its parameterized by the following **in bold**:
 
@@ -78,7 +78,7 @@ Additionally, for direct draws from the insurance fund, it parameterized by the 
 
 Unlike spot markets, perp markets are capped by the max draw from insurance via `quote_max_insurance`
 
-`quote_settled_insurance` tracks the insurance fund draw amount since inception. Once this threshold is reached or the insurance fund is depleted, the market will then resort to the AMM [Fee Pool](<../Trading/10 Fee Pool>). For any remaining losses not covered, the market will perform socialized losses in bankruptcy events.
+`quote_settled_insurance` tracks the insurance fund draw amount since inception. Once this threshold is reached or the insurance fund is depleted, the market will then resort to the AMM [Fee Pool](<../Trading/10 Fee Pool.md>). For any remaining losses not covered, the market will perform socialized losses in bankruptcy events.
 
 The following instructions interact w/ the insurance fund:
 

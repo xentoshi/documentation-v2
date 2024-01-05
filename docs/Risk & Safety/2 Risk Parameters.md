@@ -5,7 +5,7 @@ createdAt: Sun Aug 21 2022 00:57:47 GMT+0000 (Coordinated Universal Time)
 updatedAt: Sat Apr 22 2023 15:39:49 GMT+0000 (Coordinated Universal Time)
 ---
 
-These risk parameters are relevant to perpetual futures. Further risk parameters are also set out in and \*\*\*\*[Risk Parameters](<../Drift Protocol v2 Docs/Risk Parameters>)
+These risk parameters are relevant to perpetual futures. Further risk parameters are also set out in and \*\*\*\*[Risk Parameters](<../Risk & Safety/2 Risk Parameters.md>)
 
 ### Price Bands
 
@@ -59,10 +59,10 @@ Note that whenever a user's orders are cancelled, fillers receive a small reward
 
 ### Unbounded P\&L and Market Delisting
 
-This risk is addressed in [Risks ](<../Security/Risks .md>))and [P\&L](<../P&L/0 P_L>).&#x20;
+This risk is addressed in [Risks ](<../Security/Risks .md>))and [P\&L](<../P&L/0 P_L.md>).&#x20;
 
 Users can technically achieve unbounded unrealised P\&L from entering and exiting a trade against the AMM. Further, as the AMM allows for asynchronous trading; there may not be an offsetting loss within the system to account for the gain made by particular users. &#x20;
 
 As such, even if the user can achieve unbounded unrealised gains - those gains cannot be settled and withdrawable as collateral until there is a dollar of offsetting loss to account for the dollar of gain.
 
-In a circumstance where the majority of participants are in extreme positive unrealised P\&L and the unrealised P\&L cannot be settled; the market may be eligible for settlement through the [Delisting Process](<./0 Delisting Process>).
+In a circumstance where the majority of participants are in extreme positive unrealised P\&L and the unrealised P\&L cannot be settled; the market may be eligible for settlement through the [Delisting Process](<../Risk & Safety/0 Delisting Process.md>).

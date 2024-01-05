@@ -47,9 +47,9 @@ and can pay out to
 
 -   Perpetual Markets
 
-(see details of these rules in [Revenue Pool](<../0 About Drift v2/8 Revenue Pool>))
+(see details of these rules in [Revenue Pool](<../About Drift v2/8 Revenue Pool.md>))
 
-The Fee Pool collects exchange fees from swaps and uses them to pay out the Keeper Network [Keepers & Decentralised Orderbook](<../0 About Drift v2/4 Keepers _ Decentralised Orderbook>)
+The Fee Pool collects exchange fees from swaps and uses them to pay out the Keeper Network [Keepers & Decentralised Orderbook](<../About Drift v2/4 Keepers _ Decentralised Orderbook.md>)
 
 ### Future Work
 

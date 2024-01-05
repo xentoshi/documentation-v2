@@ -13,7 +13,7 @@ updatedAt: Wed Nov 15 2023 14:05:46 GMT+0000 (Coordinated Universal Time)
 
 You can deposit SOL to cover trading fees on your Phantom wallet. If you don't have SOL yet, you can purchase SOL on an exchange and withdraw SOL to your Phantom wallet.
 
-You can then swap any asset in your wallet for USDC or other assets that are accepted as margin for cross collateral (SOL, BTC and ETH) within the Phantom interface itself, or on [Jupiter](https://jup.ag/swap/SOL-USDC). Check out [Cross-Collateral Deposits](<./4 Cross-Collateral Deposits>) to see which assets are accepted as deposits on Drift.
+You can then swap any asset in your wallet for USDC or other assets that are accepted as margin for cross collateral (SOL, BTC and ETH) within the Phantom interface itself, or on [Jupiter](https://jup.ag/swap/SOL-USDC). Check out [Cross-Collateral Deposits](<./4 Cross-Collateral Deposits.md>) to see which assets are accepted as deposits on Drift.
 
 ![](../../static/assets/jcnLW71e4_JwiOR7pEIwB_image.png)
 

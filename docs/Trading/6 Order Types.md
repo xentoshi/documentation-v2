@@ -30,14 +30,14 @@ The fee paid depends on whether the order is a taker order or a maker order.&#x2
 
 Maker orders are Limit orders with a 'Post' flag.
 
-See [Trading Fees](<./9 Trading Fees>) and [Advanced Orders FAQ](<./7 Advanced Orders FAQ>) for more information.
+See [Trading Fees](<../Trading/9 Trading Fees.md>) and [Advanced Orders FAQ](<../Trading/7 Advanced Orders FAQ.md>) for more information.
 :::
 
 ## **Limit Orders**
 
 The Drift DEX supports a number of queued order types.&#x20;
 
-These orders take against the DAMM and are executed by a decentralised network of keepers, see[Decentralised Orderbook FAQ](<../0 About Drift v2/2 Decentralised Orderbook FAQ>), once certain conditions are met (i.e. the mark price crosses the specified trigger/limit price).
+These orders take against the DAMM and are executed by a decentralised network of keepers, see[Decentralised Orderbook FAQ](<../About Drift v2/2 Decentralised Orderbook FAQ.md>), once certain conditions are met (i.e. the mark price crosses the specified trigger/limit price).
 
 These orders are executed **'best effort'** by the network with special economic incentives designed to mimic the typical execution order seen in a Centralised Limit Order Book (CLOB).
 

@@ -41,4 +41,4 @@ This should translate to better performance during periods of high network conge
 
 ### What are Keeper bots? How can I participate?
 
-A Keeper will track and fill orders and earn a reward. The guide to run is listed in [Keeper Bots](<./3 Keeper Bots>). Incentive structures are listed in [Keepers & Decentralised Orderbook](<./4 Keepers _ Decentralised Orderbook>).
+A Keeper will track and fill orders and earn a reward. The guide to run is listed in [Keeper Bots](<./3 Keeper Bots.md>). Incentive structures are listed in [Keepers & Decentralised Orderbook](<./4 Keepers _ Decentralised Orderbook.md>).

@@ -65,7 +65,7 @@ Your P\&L will not be **realised** until you close your position. Once you close
 
 Settling P\&L refers to settling the total funds available in the per-market pool of funds that users can claim.&#x20;
 
-This pool is called the **P\&L Pool** (read more here: [Accounting and Settlement](<./1 Accounting and Settlement>)).&#x20;
+This pool is called the **P\&L Pool** (read more here: [Accounting and Settlement](<../P&L/1 Accounting and Settlement.md>)).&#x20;
 
 A trader that has made a profitable trade and realises its profits may wish to withdraw that realised profit.
 
@@ -77,11 +77,11 @@ If a user made a profitable trade and has a positive realised P\&L from the posi
 
 When this occurs, the user's P\&L will be considered to be **unsettled P\&L. **
 
-For more information on what happens when there is not enough Settled P\&L, read [P\&L Pool](<./2 P_L Pool>)
+For more information on what happens when there is not enough Settled P\&L, read [P\&L Pool](<../P&L/2 P_L Pool.md>)
 
 ### Margining of Unsettled P\&L&#x20;
 
-If positive P\&L is unsettled, it may account for less initial margin for trading perpetuals than USDC. Please see the treatment of non-USD assets here [Cross-Collateral Deposits](<../Getting Started/4 Cross-Collateral Deposits>)
+If positive P\&L is unsettled, it may account for less initial margin for trading perpetuals than USDC. Please see the treatment of non-USD assets here [Cross-Collateral Deposits](<../Getting Started/4 Cross-Collateral Deposits.md>)
 
 Each market has a maximum imbalanced P\&L limit. When the net user P\&L in a market breaches the limit, the asset weight will be decreased. Additionally, P\&L in excess of the limit is subject to deficit resolutions from the Insurance Fund (up to the market's max insurance fund limit).&#x20;
 

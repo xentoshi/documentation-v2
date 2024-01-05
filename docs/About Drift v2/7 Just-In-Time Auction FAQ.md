@@ -65,7 +65,7 @@ Exclusive of slippage and fees, the UI will display the price that the Taker wil
 
 ### How do I participate as a Maker in the auction?&#x20;
 
-You can read docs here ([Just-In-Time (JIT) Auctions](<./6 Just-In-Time _JIT_ Auctions>)) as well as read through an example trading bot (). &#x20;
+You can read docs here ([Just-In-Time (JIT) Auctions](<./6 Just-In-Time _JIT_ Auctions.md>)) as well as read through an example trading bot (). &#x20;
 
 ### Is the same JIT auction mechanism used for liquidations as well? &#x20;
 

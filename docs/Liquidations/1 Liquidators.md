@@ -16,7 +16,7 @@ There are four instructions pertaining to liquidations:
 | liquidate_borrow_for_perp_pnl  | Liquidator takes over borrow for discount P\&L.                  |
 | liquidate_perp_pnl_for_deposit | Liquidator takes over negative P\&L for discounted deposit.      |
 
-Bankruptcy (see [Insurance Fund](<../Insurance Fund/0 Insurance Fund>) ) is possible if you still have outstanding liabilities and no further assets after liquidation.&#x20;
+Bankruptcy (see [Insurance Fund](<../Insurance Fund/0 Insurance Fund.md>) ) is possible if you still have outstanding liabilities and no further assets after liquidation.&#x20;
 
 Liquidators are open-sourced and can be triggered by anybody running a liquidator bot. Liquidators, also known as Keepers, will have their collateral reward credited to their Drift account.
 

@@ -31,7 +31,7 @@ The process is as follows:&#x20;
 
     *   at position closure, the taker fee is applied (so as to encourage close during reduce only mode)
 
-4.  Once the number of users in the market reaches zero, the remaining balance PnL Pool can be settled into the quote asset's [Revenue Pool](<../0 About Drift v2/8 Revenue Pool>)
+4.  Once the number of users in the market reaches zero, the remaining balance PnL Pool can be settled into the quote asset's [Revenue Pool](<../About Drift v2/8 Revenue Pool.md>)
 
 ### Spot Markets&#x20;
 

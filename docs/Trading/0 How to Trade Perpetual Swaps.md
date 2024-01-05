@@ -17,7 +17,7 @@ Select Long (Buy) or Short (Sell) from the top of the trading form and then sele
 
 ![](../../static/assets/EkKqbHy0IVwyVgHpIsPLW_screenshot-2023-08-11-at-113800.png)
 
-Drift offers Market and Limit Orders that you can use to manage risk. If you are a beginner and just want to buy the perpetual contract at its current price then go with a Market Order. To read more on Market Orders, you can read about it on [Order Types](<./6 Order Types>).
+Drift offers Market and Limit Orders that you can use to manage risk. If you are a beginner and just want to buy the perpetual contract at its current price then go with a Market Order. To read more on Market Orders, you can read about it on [Order Types](<../Trading/6 Order Types.md>).
 
 ![](../../static/assets/i1GlHgcBaJMWNeK3cyZMS_screenshot-2023-08-11-at-114239.png)
 

@@ -7,7 +7,7 @@ updatedAt: Tue Apr 25 2023 19:28:53 GMT+0000 (Coordinated Universal Time)
 
 ## What is the Insurance Fund?
 
-Drift's Insurance Fund is the first backstop to maintaining the solvency of the exchange in the event of any bankruptcies. Any user can stake into Drift's USDC Insurance Fund to accrue fees from [Revenue Pool](<../0 About Drift v2/8 Revenue Pool>) at the risk of resolving user bankruptcies / vAMM deficits.
+Drift's Insurance Fund is the first backstop to maintaining the solvency of the exchange in the event of any bankruptcies. Any user can stake into Drift's USDC Insurance Fund to accrue fees from [Revenue Pool](<../About Drift v2/8 Revenue Pool.md>) at the risk of resolving user bankruptcies / vAMM deficits.
 
 There are separate Insurance Funds for each asset that can be deposited on the platform - USDC, BTC, ETH and SOL. Since the USDC pool collects exchange fees from trading activity on spot and perpetual trading, the USDC pool will support liquidations from perpetual trading, while the other pools will backstop the respective asset-denominated liquidations from borrow-lend.
 

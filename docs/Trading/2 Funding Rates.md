@@ -16,7 +16,7 @@ Perpetuals futures have no expiry date, final settlement, or delivery. As such, 
 | Mark TWAP Calc      | (bid TWAP + ask TWAP) / 2                       |
 | Frequency           | End of Hour\* (9:00 AM, 10:00 AM, ...)          |
 
-Note: Funding rate magnitudes are clamped at 0.12626% and are delayed at large divergences (see [Oracles](<./13 Oracles>)). Individual Market TWAP updates utilize the side of the book for trade executions, Bid and Ask TWAPs in the market are calculated and/or estimated on every trade.&#x20;
+Note: Funding rate magnitudes are clamped at 0.12626% and are delayed at large divergences (see [Oracles](<../Trading/13 Oracles.md>)). Individual Market TWAP updates utilize the side of the book for trade executions, Bid and Ask TWAPs in the market are calculated and/or estimated on every trade.&#x20;
 
 ### Unrealised -> Realised Funding
 
@@ -28,7 +28,7 @@ The funding rate will still be updated if enough time has passed and no position
 
 The update will reflect the premium or discount between the DAMM’s mark price and the oracle’s price TWAP over the previous hour.&#x20;
 
-The cumulative funding rate is checked against user positions in case the off-chain funding rate bot does not trigger on the hour. This will show up as "Unrealised P\&L" until your next user action within the market (such as a trade, deposit, withdraw etc.), see also [P\&L](<../P&L/0 P_L>).
+The cumulative funding rate is checked against user positions in case the off-chain funding rate bot does not trigger on the hour. This will show up as "Unrealised P\&L" until your next user action within the market (such as a trade, deposit, withdraw etc.), see also [P\&L](<../P&L/0 P_L.md>).
 
 **\*\*\*\*** if no market trades and/or funding update calls occur within the first \~20 minutes of the hour, the next funding update will be delayed an additional hour.\*
 
@@ -56,7 +56,7 @@ Example funding calculation:&#x20;
 
 Drift's on-chain calculation of a market's oracle TWAP is updated only on trades which incorporates the oracle's confidence interval and a few interpolations to provide the most accurate and resilient value.&#x20;
 
-Read more about protective checks in [Oracles](<./13 Oracles>).
+Read more about protective checks in [Oracles](<../Trading/13 Oracles.md/>).
 
 ### APR calculation
 

@@ -11,9 +11,9 @@ _For more information on incentive programs for Market Makers, see _[Maker Rebat
 
 Any user can participate as a Market Maker on the platform. Market Makers can provide liquidity through either:&#x20;
 
-1.  Just-in-Time Liquidity (see [Just-In-Time (JIT) Auctions](<../0 About Drift v2/6 Just-In-Time _JIT_ Auctions>)); or
+1.  Just-in-Time Liquidity (see [Just-In-Time (JIT) Auctions](<../About Drift v2/6 Just-In-Time _JIT_ Auctions.md>)); or
 
-2.  Post-Only Orders on the decentralised orderbook (see [Keepers & Decentralised Orderbook](<../0 About Drift v2/4 Keepers _ Decentralised Orderbook>)).
+2.  Post-Only Orders on the decentralised orderbook (see [Keepers & Decentralised Orderbook](<../About Drift v2/4 Keepers _ Decentralised Orderbook.md>)).
 
 ## Just-in-Time Liquidity&#x20;
 
@@ -23,7 +23,7 @@ This will provide Makers with an opportunity to see retail flow five seconds bef
 
 Market Makers can participate in the JIT system by running a JIT Maker Bot. For more information, check out [Tutorial: JIT Maker Bot](<../Guides/Tutorial_ JIT Maker Bot.md>)
 
-For more information on the Just-in-Time Liquidity system, check out [Just-In-Time (JIT) Auctions](<../0 About Drift v2/6 Just-In-Time _JIT_ Auctions>)
+For more information on the Just-in-Time Liquidity system, check out [Just-In-Time (JIT) Auctions](<../About Drift v2/6 Just-In-Time _JIT_ Auctions.md>)
 
 ## Decentralised Orderbook&#x20;
 

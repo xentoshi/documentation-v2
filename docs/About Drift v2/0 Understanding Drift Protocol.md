@@ -9,13 +9,13 @@ updatedAt: Thu Aug 10 2023 13:42:39 GMT+0000 (Coordinated Universal Time)
 
 At the application level, Drift Protocol is a decentralized exchange that supports low slippage, low fees, and minimal price impact on all trades. Drift offers **four** primary products:
 
-1.  Spot Trading - [What is Spot Margin Trading?](<../Trading/5 What is Spot Margin Trading_>)&#x20;
+1.  Spot Trading - [What is Spot Margin Trading?](<../Trading/5 What is Spot Margin Trading_.md>)&#x20;
 
-2.  Perpetuals Trading - [What are Perpetual Futures?](<../Trading/1 What are Perpetual Futures_>)&#x20;
+2.  Perpetuals Trading - [What are Perpetual Futures?](<../Trading/1 What are Perpetual Futures_.md>)&#x20;
 
-3.  Borrow & Lend - [What is Borrow & Lend?](<../Lend & Borrow/0 What is Borrow _ Lend_>)&#x20;
+3.  Borrow & Lend - [What is Borrow & Lend?](<../Lend & Borrow/0 What is Borrow _ Lend_.md>)&#x20;
 
-4.  Passive Liquidity Provision - [DLP - Drift Liquidity Provider](<../Providing Liquidity/0 DLP - Drift>)
+4.  Passive Liquidity Provision - [DLP - Drift Liquidity Provider](<../Providing Liquidity/0 DLP - Drift Liquidity Provider.md>)
 
 # The Problem
 
@@ -45,7 +45,7 @@ Trades on Drift are supported by three liquidity mechanisms:
 
 ### Just-in-Time Liquidity
 
-_For a more technical breakdown, check out: _[Just-In-Time (JIT) Auctions](<./6 Just-In-Time _JIT_ Auctions#mFAd->)
+_For a more technical breakdown, check out: _[Just-In-Time (JIT) Auctions](<./6 Just-In-Time _JIT_ Auctions.md#mFAd->)
 
 All market trades (spot and perpetual) that are placed on Drift are routed through a short-term auction (default is \~ 5 seconds). During this period, market-makers can bid to fill the order at or better than the auction price, providing '_Just-in-Time Liquidity_' as the fulfilment is provided for the market order submitted.&#x20;
 
@@ -63,13 +63,13 @@ This also means that, even without external makers, Drift Protocol can support n
 
 ### Limit Orderbook Liquidity
 
-_For a more technical breakdown, check out: _[Decentralised Orderbook FAQ](<./2 Decentralised Orderbook FAQ>).
+_For a more technical breakdown, check out: _[Decentralised Orderbook FAQ](<./2 Decentralised Orderbook FAQ.md>).
 
 Drift's decentralised orderbook (DLOB) acts as its third source of liquidity.&#x20;
 
-Limit orders are orders that trigger and execute on a particular condition. For a full breakdown of what limit orders are, visit: [Order Types](<../Trading/6 Order Types>).&#x20;
+Limit orders are orders that trigger and execute on a particular condition. For a full breakdown of what limit orders are, visit: [Order Types](<../Trading/6 Order Types.md>).&#x20;
 
-Limit orders are placed by users on-chain. A network of Keeper Bots ([Keeper Bots](<./3 Keeper Bots>)) then sorts the on-chain limit orders into an off-chain orderbook and categorises limit orders from oldest to newest, and largest to smallest.&#x20;
+Limit orders are placed by users on-chain. A network of Keeper Bots ([Keeper Bots](<./3 Keeper Bots.md>)) then sorts the on-chain limit orders into an off-chain orderbook and categorises limit orders from oldest to newest, and largest to smallest.&#x20;
 
 Each Keeper maintains its own view of the orderbook (hence the 'decentralised' aspect) and tracks new orders, AMM availability, and the oracle price. If the trigger condition of a limit order is met, the Keeper will submit the limit order and fill it against the AMM. Keepers will also match taker orders with resting limit orders if the conditions are the same.
 

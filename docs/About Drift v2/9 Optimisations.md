@@ -41,11 +41,11 @@ The way unrealised P\&L users can lock in from entering and exiting a trade agai
 
 However, whilst a user can achieve this unrealised gain, it is important to note that an offsetting loss (or sufficient fees collected) is necessary before the unrealised gain can be settled in full and withdrawable as collateral.
 
-Until the P\&L pool is replenished by offsetting losses, winners may\* be offered discounted margin on unrealised gains. Winners will have the ability to withdraw their portion from the P\&L settlement pool as it increases. Read more about the settlement mechanism in [P\&L](<../P&L/0 P_L>).&#x20;
+Until the P\&L pool is replenished by offsetting losses, winners may\* be offered discounted margin on unrealised gains. Winners will have the ability to withdraw their portion from the P\&L settlement pool as it increases. Read more about the settlement mechanism in [P\&L](<../P&L/0 P_L.md>).&#x20;
 
 **\***: If the unrealised P\&L imbalance exceeds its per-market threshold, those unrealised gains may be discounted by the margining system (initial, not maintenance) to prevent large borrows against it. This initial margin discounting would only impact new positions being opened and would not affect a user's liquidation threshold.
 
-These rules are systemitised and can be read more under the Margin subheading in [Cross-Collateral Deposits](<../Getting Started/4 Cross-Collateral Deposits>).&#x20;
+These rules are systemitised and can be read more under the Margin subheading in [Cross-Collateral Deposits](<../Getting Started/4 Cross-Collateral Deposits.md>).&#x20;
 
 ### Terminal State Consideration
 

@@ -11,7 +11,7 @@ Drift utilises as an oracle source.  The protocol has the flexibility to update 
 
 ### Validity Checks
 
-For robustness, Drift's program checks oracle validity. The validity is evaluated on a per-check and action basis to determine whether to block actions. See [Protocol Guard Rails](<../Risk & Safety/1 Protocol Guard Rails>) for more details.
+For robustness, Drift's program checks oracle validity. The validity is evaluated on a per-check and action basis to determine whether to block actions. See [Protocol Guard Rails](<../Risk & Safety//1 Protocol Guard Rails.md>) for more details.
 
 1\. Stale(ForAmm/ForMargin): (last slot update too far behind the current slot, **10/120 slots**)
 

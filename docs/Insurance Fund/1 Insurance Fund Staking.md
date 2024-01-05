@@ -9,14 +9,14 @@ updatedAt: Thu Sep 28 2023 15:50:34 GMT+0000 (Coordinated Universal Time)
 
 Users that elect to stake into the Insurance Fund will be collateralising the Insurance Fund.&#x20;
 
-The Insurance Fund is the protocol's first backstop to maintaining the solvency of the protocol. All users that stake into the IF should read through and be clear on what happens to the Insurance Fund when levered losses and vAMM deficits occur ([Insurance Fund](<./0 Insurance Fund>)).
+The Insurance Fund is the protocol's first backstop to maintaining the solvency of the protocol. All users that stake into the IF should read through and be clear on what happens to the Insurance Fund when levered losses and vAMM deficits occur ([Insurance Fund](<../Insurance Fund/0 Insurance Fund.md>)).
 
 ### Reward
 
-For providing liquidity to the Insurance Fund, Insurance Fund Stakers are rewarded with their proportionate share of the [Revenue Pool](<../0 About Drift v2/8 Revenue Pool>) every hour.&#x20;
+For providing liquidity to the Insurance Fund, Insurance Fund Stakers are rewarded with their proportionate share of the [Revenue Pool](<../About Drift v2/8 Revenue Pool.md>) every hour.&#x20;
 
 :::hint{type="info"}
-The [Revenue Pool](<../0 About Drift v2/8 Revenue Pool>) is funded by various aspects of the protocol:&#x20;
+The [Revenue Pool](<../About Drift v2/8 Revenue Pool.md>) is funded by various aspects of the protocol:&#x20;
 
 1.  borrow fees;
 

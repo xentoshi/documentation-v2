@@ -7,7 +7,7 @@ updatedAt: Tue Feb 21 2023 12:00:24 GMT+0000 (Coordinated Universal Time)
 
 ## Overview
 
-Drift's decentralised orderbook is powered by our network of [Keeper Bots](<./3 Keeper Bots>). &#x20;
+Drift's decentralised orderbook is powered by our network of [Keeper Bots](<./3 Keeper Bots.md>). &#x20;
 
 The Keeper Bots match open orders with various on-chain liquidity mechanisms once they cross or their trigger condition is met. These scenarios include:
 
@@ -47,7 +47,7 @@ For performing this critical duty, the Keepers earn a fee for every trade they e
 
 3.  the ones that fulfil orders in the protocol’s desired sequence — oldest and largest first.
 
-Reference implementations for the filler and trigger Keepers are provided: [Keeper Bots](<./3 Keeper Bots>).&#x20;
+Reference implementations for the filler and trigger Keepers are provided: [Keeper Bots](<./3 Keeper Bots.md>).&#x20;
 
 ![](../../static/assets/_7EXFtBAy_tQDOSdL_VIL_image.png)
 

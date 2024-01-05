@@ -11,7 +11,7 @@ Keepers *keep *the Drift network healthy.
 
 For matching orders, Keepers receive a portion of the taker fee.
 
-For cancelling orders (that can be cancelled see [Advanced Orders FAQ](<../Trading/7 Advanced Orders FAQ>)), Keepers will receive the `cancel_order_fee` on the state.
+For cancelling orders (that can be cancelled see [Advanced Orders FAQ](<../Trading/7 Advanced Orders FAQ.md>)), Keepers will receive the `cancel_order_fee` on the state.
 
 ### Future Work
 

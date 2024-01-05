@@ -101,5 +101,5 @@ This also means that if the price of SOL goes down by 1%, your position will be 
 
 If however, the price of SOL goes down by 10%, this means your underlying position will go down by 100%, and you will be liquidated.&#x20;
 
-For more information on liquidations visit [Liquidations](<../Liquidations/0 Liquidations>).
+For more information on liquidations visit [Liquidations](<../Liquidations/0 Liquidations.md>).
 

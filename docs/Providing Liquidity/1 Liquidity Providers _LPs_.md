@@ -61,7 +61,7 @@ Following a similar pattern with the funding payments (eg, using a last\_funding
 
 ### Protections
 
-The vAMM has many protections against toxic flow which are implicitly applied to LPs (see [Optimisations](<../0 About Drift v2/9 Optimisations>)).&#x20;
+The vAMM has many protections against toxic flow which are implicitly applied to LPs (see [Optimisations](<../About Drift v2/9 Optimisations.md>)).&#x20;
 
 Guards against botting activity aimed at taking advantage of auction order flow are also in place. These guards can be fine-tuned over time.&#x20;
 

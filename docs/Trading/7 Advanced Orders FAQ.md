@@ -58,4 +58,4 @@ Theoretically, this should also translate to better performance during periods o
 
 **What are Keeper bots? How can I participate?**
 
-A Keeper will track and fill orders and earn a reward. Guide to running different types of [Keeper Bots](<../0 About Drift v2/3 Keeper Bots>).&#x20;
+A Keeper will track and fill orders and earn a reward. Guide to running different types of [Keeper Bots](<../About Drift v2/3 Keeper Bots.md>).&#x20;

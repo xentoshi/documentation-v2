@@ -7,7 +7,7 @@ updatedAt: Fri Oct 06 2023 13:12:44 GMT+0000 (Coordinated Universal Time)
 
 Trading fees on Drift are calculated on a per-trade basis and are based on the filled notional position size.&#x20;
 
-Trading fees are calculated in the market's quote asset (USDC) and show up in Perpetual Markets as a penalty on the cost basis of position. In the circumstance where a user only holds non-USDC assets on Drift, a borrow for USDC will only appear upon someone settling that perp position's loss (see [P\&L](<../P&L/0 P_L>)).
+Trading fees are calculated in the market's quote asset (USDC) and show up in Perpetual Markets as a penalty on the cost basis of position. In the circumstance where a user only holds non-USDC assets on Drift, a borrow for USDC will only appear upon someone settling that perp position's loss (see [P\&L](<../P&L/0 P_L.md>)).
 
 Drift Protocol has a tiered fee structure for all futures markets based on an on-chain calculation of 30-Day Volume\*.&#x20;
 
@@ -56,13 +56,13 @@ These apply to accounts that were signed up using a referred account. These perc
 
 ### Filler Reward
 
-Filler rewards are variable but up to 10% of the effective taker fee paid by the user. See [Keeper Incentives](<../0 About Drift v2/5 Keeper Incentives>).
+Filler rewards are variable but up to 10% of the effective taker fee paid by the user. See [Keeper Incentives](<../About Drift v2/5 Keeper Incentives.md>).
 
 ### Disclaimers
 
 _Drift Protocol reserves the right to end the promotional period and the Taker Incentive Program at any time. If the Drift Protocol chooses to do so, it will provide notice to participating users, but such notice is not required in order to conclude the program early or extend the program. Please note that the terms and conditions of this program are subject to change without notice._
 
-**_There are risks associated with Insurance Fund Staking. Read more about the _**[Insurance Fund Staking](<../Insurance Fund/1 Insurance Fund Staking>) and [Risks ](<../Security/Risks .md>))**_._**
+**_There are risks associated with Insurance Fund Staking. Read more about the _**[Insurance Fund Staking](<../Insurance Fund/1 Insurance Fund Staking.md>) and [Risks ](<../Security/Risks .md>))**_._**
 
 ---
 

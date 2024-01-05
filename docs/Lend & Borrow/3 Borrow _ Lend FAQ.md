@@ -39,11 +39,11 @@ updatedAt: Tue Feb 21 2023 11:29:39 GMT+0000 (Coordinated Universal Time)
 
 *   `1 / initial liability weight`
 
-*   For `initial liability weight` for listed assets, see [Cross-Collateral Deposits](<../Getting Started/4 Cross-Collateral Deposits>)&#x20;
+*   For `initial liability weight` for listed assets, see [Cross-Collateral Deposits](<../Getting Started/4 Cross-Collateral Deposits.md>)&#x20;
 
 **What is the maintenance LTV? **
 
 *   `1/ maintenance liability weight`
 
-*   For `maintenance liability weight` for listed assets, see [Cross-Collateral Deposits](<../Getting Started/4 Cross-Collateral Deposits>)&#x20;
+*   For `maintenance liability weight` for listed assets, see [Cross-Collateral Deposits](<../Getting Started/4 Cross-Collateral Deposits.md>)&#x20;
 
