@@ -44,6 +44,3 @@ An asset's liability weight can be converted into an LTV ratio using:
 | **Asset** | **Initial LTV** | **Max LTV** |
 | --------- | --------------- | ----------- |
 | SOL       | 83.3%           | 90.9%       |
-
-
-
