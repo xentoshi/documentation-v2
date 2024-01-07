@@ -99,7 +99,7 @@ const config = {
                 // The application ID provided by Algolia
                 appId: "CUKQY5DIF0", // Todo
                 apiKey: "85829b8cb9ff89da0c174440c43ad1b1", // Todo
-                indexName: "drift-protocol",
+                indexName: "umentation-v2",
                 contextualSearch: true,
                 searchPagePath: false,
             },
