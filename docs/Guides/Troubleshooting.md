@@ -23,7 +23,7 @@ SolanaJSONRPCError: failed to get token account balance: Invalid param: could no
 
 ## `ClearingHouseUser` does not exist
 
-The account in `KEEPER_PRIVATE_KEY` has not been initialised on the `ClearingHouse` program yet. See [Keeper Bots](<../Guides/Keeper Bots.md#9KTc1>) for how to initialise the `ClearingHouseUser`
+The account in `KEEPER_PRIVATE_KEY` has not been initialised on the `ClearingHouse` program yet. See [Keeper Bots](<../0 About Drift v2/3 Keeper Bots#9KTc1>) for how to initialise the `ClearingHouseUser`
 
 ```shell
 [2022-08-15T22:46:19.236Z] error: ClearingHouseUser for bot69e9FXGoKzvAdGnN8uVVDCfLdLUX6K5wsXdrS3Dd3 does not exist

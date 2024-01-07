@@ -75,19 +75,19 @@ const config = {
                     src: "img/logo.svg",
                 },
                 items: [
-                    // {
-                    //     type: "docSidebar",
-                    //     sidebarId: "tutorialSidebar",
-                    //     position: "left",
-                    //     label: "Docs",
-                    // },
-                    // { to: "/blog", label: "Blog", position: "left" },
-
-                    // {
-                    //     type: "search",
-                    //     position: "right",
-                    //     className: "search",
-                    // },
+                    {
+                        type: "docSidebar",
+                        sidebarId: "mySidebar",
+                        position: "left",
+                        label: "Docs",
+                    },
+                //    { to: "/blog", label: "Blog", position: "left" },
+                    
+                    {
+                        type: "search",
+                        position: "right",
+                        className: "search",
+                    },
                     {
                         href: "https://github.com/drift-labs/documentation-v2",
                         label: "Edit on GitHub",
@@ -95,14 +95,14 @@ const config = {
                     },
                 ],
             },
-            // algolia: {
-            //     // The application ID provided by Algolia
-            //     appId: "1", // Todo
-            //     apiKey: "1", // Todo
-            //     indexName: "drift-protocol",
-            //     contextualSearch: true,
-            //     searchPagePath: false,
-            // },
+            algolia: {
+                // The application ID provided by Algolia
+                appId: "1", // Todo
+                apiKey: "1", // Todo
+                indexName: "drift-protocol",
+                contextualSearch: true,
+                searchPagePath: false,
+            },
             footer: {
                 style: "dark",
                 links: [

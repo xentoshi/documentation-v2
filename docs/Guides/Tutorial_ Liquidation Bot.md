@@ -13,7 +13,7 @@ The liquidation in the protocol is a liability transfer mechanism from the selec
 
 Liquidators inherit the liabilities they liquidate and receive an asset at a discount for doing so. In order to participate, liquidators must have even collateral in their account in order to satisfy the initial margin requirements for the transferred positions.
 
-For more information on our liquidation system, please read [Liquidations](<../Drift Protocol v2 Docs/Liquidations.md>).
+For more information on our liquidation system, please read [Liquidations](<../Liquidations/0 Liquidations>).
 
 # Getting Started
 

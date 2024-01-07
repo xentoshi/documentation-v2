@@ -5,9 +5,9 @@ createdAt: Mon Aug 15 2022 18:33:09 GMT+0000 (Coordinated Universal Time)
 updatedAt: Mon May 15 2023 12:16:34 GMT+0000 (Coordinated Universal Time)
 ---
 
-Market orders go through the [Just-In-Time (JIT) Auctions](<../Drift Protocol v2 Docs/Just-In-Time _JIT_ Auctions.md>) where Makers fight to fill orders before the order is allowed to fill against the [Drift AMM](<../Drift Protocol v2 Docs/Drift AMM.md>).&#x20;
+Market orders go through the [Just-In-Time (JIT) Auctions](<../0 About Drift v2/6 Just-In-Time _JIT_ Auctions>) where Makers fight to fill orders before the order is allowed to fill against the [Drift AMM](<docs/About Drift v2/1 Drift AMM>).&#x20;
 
-JIT Maker Bots maintain a local copy of the decentralised orderbook (DLOB) (see: [Keepers & Decentralised Orderbook](<../Drift Protocol v2 Docs/Keepers _ Decentralised Orderbook.md>)) in order to see which orders are in the auction phase and can be bid on.
+JIT Maker Bots maintain a local copy of the decentralised orderbook (DLOB) (see: [Keepers & Decentralised Orderbook](<../0 About Drift v2/4 Keepers _ Decentralised Orderbook>)) in order to see which orders are in the auction phase and can be bid on.
 
 # Getting Started
 
@@ -15,7 +15,7 @@ JIT Maker Bots maintain a local copy of the decentralised orderbook (DLOB) (see:
 
 The reference implementation of the JIT Maker Bot is available [here](https://github.com/drift-labs/keeper-bots-v2/blob/master/src/bots/jitMaker.ts).
 
-Follow the instructions at [Keeper Bots](<../Guides/Keeper Bots.md>) to set the required environment variables, initialise the`ClearingHouseUser` and deposit some collateral.
+Follow the instructions at [Keeper Bots](<../0 About Drift v2/3 Keeper Bots>) to set the required environment variables, initialise the`ClearingHouseUser` and deposit some collateral.
 
 Start the JIT Maker Bot:
 
@@ -64,7 +64,7 @@ eventSubscriber.eventEmitter.on("newEvent", async (event) => {
 
 ## Bidding on JIT Auctions
 
-Technical details on the JIT Auction and its pricing can be found at [Just-In-Time (JIT) Auctions](<../Drift Protocol v2 Docs/Just-In-Time _JIT_ Auctions.md>). The reference implementation acts on each user order received and makes the order in the opposite direction at the auction end price with a random order size between `20` and `MAX_TRADE_SIZE_QUOTE`.
+Technical details on the JIT Auction and its pricing can be found at [Just-In-Time (JIT) Auctions](<../0 About Drift v2/6 Just-In-Time _JIT_ Auctions>). The reference implementation acts on each user order received and makes the order in the opposite direction at the auction end price with a random order size between `20` and `MAX_TRADE_SIZE_QUOTE`.
 
 ```typescript
 // after finding a DLOB node still in the auction period
