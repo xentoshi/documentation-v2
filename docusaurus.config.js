@@ -81,8 +81,8 @@ const config = {
                         position: "left",
                         label: "Docs",
                     },
-                //    { to: "/blog", label: "Blog", position: "left" },
-                    
+                    //    { to: "/blog", label: "Blog", position: "left" },
+
                     {
                         type: "search",
                         position: "right",
@@ -97,8 +97,8 @@ const config = {
             },
             algolia: {
                 // The application ID provided by Algolia
-                appId: "1", // Todo
-                apiKey: "1", // Todo
+                appId: "CUKQY5DIF0", // Todo
+                apiKey: "85829b8cb9ff89da0c174440c43ad1b1", // Todo
                 indexName: "drift-protocol",
                 contextualSearch: true,
                 searchPagePath: false,
