@@ -96,6 +96,7 @@ const config = {
                     },
                 ],
             },
+            /*
             algolia: {
                 // The application ID provided by Algolia
                 appId: "CUKQY5DIF0", // Todo
@@ -104,6 +105,17 @@ const config = {
 
                 contextualSearch: true,
                 searchPagePath: false,
+            },
+            */
+           // xentoshi's Algolia application ID
+            algolia: {
+                // The application ID provided by Algolia
+                appId: "MMS52J92QW", // Todo
+                apiKey: "a03fc4d2ab46cea0cf9f883add8315f9", // Todo
+                indexName: "umentation-v2--intro",
+                placeholder: "Search",
+                contextualSearch: true,
+                //searchPagePath: false,
             },
             footer: {
                 style: "dark",
